@@ -1,0 +1,15 @@
+{
+  "income": 669492.0,
+  "expense": 445879.0,
+  "savings": 223613.0,
+  "savings_rate_pct": 33.4,
+  "transactions": 463,
+  "period_start": "01 Apr 2024",
+  "period_end": "31 Mar 2025",
+  "top_category": "Rent",
+  "needs_share_pct": 43.4,
+  "wants_share_pct": 23.2,
+  "savings_share_pct": 33.4,
+  "category_months_over_budget": 20,
+  "unusual_transactions": 4
+}

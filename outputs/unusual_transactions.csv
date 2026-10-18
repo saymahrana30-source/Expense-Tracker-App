@@ -1,0 +1,5 @@
+Date,Category,Description,Amount,Type,Payment_Method,Year,Month_Num,Month,Year_Month,Day,Weekday,Is_Weekend,Signed_Amount,Spend_Group,Fence
+2025-01-18,Shopping,Phone upgrade,22000,Expense,Card,2025,1,January,2025-01,18,Saturday,True,-22000,Want,2694.0
+2024-11-09,Shopping,Laptop purchase,18500,Expense,UPI,2024,11,November,2024-11,9,Saturday,True,-18500,Want,2694.0
+2025-01-27,Health,Hospital bill,16800,Expense,Card,2025,1,January,2025-01,27,Monday,False,-16800,Need,2654.0
+2024-06-03,Education,Online course fee,8000,Expense,Card,2024,6,June,2024-06,3,Monday,False,-8000,Need,2580.0

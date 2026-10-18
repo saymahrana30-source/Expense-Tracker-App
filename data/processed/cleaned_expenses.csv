@@ -1,0 +1,464 @@
+Date,Category,Description,Amount,Type,Payment_Method
+2024-04-01,Salary,Monthly salary,50000,Income,Net Banking
+2024-04-02,Entertainment,Movie tickets,491,Expense,UPI
+2024-04-04,Food,Swiggy order,211,Expense,UPI
+2024-04-05,Rent,Monthly house rent,14000,Expense,UPI
+2024-04-05,Transport,Petrol,239,Expense,UPI
+2024-04-05,Food,Swiggy order,218,Expense,UPI
+2024-04-06,Transport,Bus pass,288,Expense,Card
+2024-04-06,Transport,Ola ride,162,Expense,UPI
+2024-04-07,Groceries,Big Basket order,1641,Expense,UPI
+2024-04-08,Groceries,Blinkit groceries,952,Expense,UPI
+2024-04-10,Bills,Electricity bill,1638,Expense,UPI
+2024-04-10,Groceries,Big Basket order,906,Expense,Card
+2024-04-10,Transport,Metro card recharge,106,Expense,UPI
+2024-04-11,Transport,Auto rickshaw,274,Expense,Card
+2024-04-11,Groceries,Milk and bread,774,Expense,UPI
+2024-04-12,Bills,Internet bill,799,Expense,Net Banking
+2024-04-12,Transport,Metro card recharge,435,Expense,UPI
+2024-04-12,Food,Not provided,259,Expense,UPI
+2024-04-13,Transport,Bus pass,133,Expense,UPI
+2024-04-15,Transport,Bus pass,143,Expense,UPI
+2024-04-16,Shopping,Clothes,1054,Expense,Card
+2024-04-16,Transport,Auto rickshaw,191,Expense,Card
+2024-04-17,Transport,Auto rickshaw,133,Expense,UPI
+2024-04-19,Food,Pizza order,512,Expense,UPI
+2024-04-19,Transport,Auto rickshaw,129,Expense,UPI
+2024-04-20,Bills,Mobile recharge,349,Expense,Net Banking
+2024-04-21,Food,Pizza order,413,Expense,Card
+2024-04-21,Food,Swiggy order,213,Expense,UPI
+2024-04-22,Transport,Ola ride,53,Expense,Cash
+2024-04-23,Transport,Auto rickshaw,169,Expense,UPI
+2024-04-24,Transport,Petrol,151,Expense,Card
+2024-04-24,Transport,Bus pass,229,Expense,UPI
+2024-04-24,Food,Dinner out,304,Expense,Card
+2024-04-26,Groceries,Not provided,655,Expense,Cash
+2024-04-26,Health,Lab tests,435,Expense,UPI
+2024-04-27,Entertainment,Gaming top-up,345,Expense,UPI
+2024-04-28,Groceries,Blinkit groceries,1061,Expense,Card
+2024-04-30,Food,Pizza order,374,Expense,Card
+2024-04-30,Entertainment,Movie tickets,520,Expense,Card
+2024-04-30,Transport,Metro card recharge,239,Expense,UPI
+2024-05-01,Salary,Monthly salary,50000,Income,Net Banking
+2024-05-01,Transport,Uber ride,262,Expense,UPI
+2024-05-05,Rent,Monthly house rent,14000,Expense,UPI
+2024-05-06,Food,Zomato order,299,Expense,Card
+2024-05-06,Transport,Uber ride,204,Expense,Card
+2024-05-08,Entertainment,Movie tickets,317,Expense,Card
+2024-05-08,Entertainment,Streaming subscription,192,Expense,Card
+2024-05-09,Transport,Metro card recharge,96,Expense,Cash
+2024-05-09,Transport,Petrol,136,Expense,UPI
+2024-05-10,Transport,Metro card recharge,69,Expense,UPI
+2024-05-10,Bills,Electricity bill,1681,Expense,Net Banking
+2024-05-11,Groceries,Monthly grocery run,948,Expense,Card
+2024-05-12,Transport,Auto rickshaw,129,Expense,UPI
+2024-05-12,Entertainment,Movie tickets,269,Expense,Cash
+2024-05-12,Bills,Internet bill,799,Expense,Net Banking
+2024-05-13,Transport,Metro card recharge,165,Expense,UPI
+2024-05-14,Transport,Petrol,81,Expense,UPI
+2024-05-14,Food,Street food,527,Expense,Cash
+2024-05-14,Transport,Auto rickshaw,407,Expense,UPI
+2024-05-14,Transport,Bus pass,99,Expense,Cash
+2024-05-15,Entertainment,Movie tickets,173,Expense,Card
+2024-05-16,Food,Lunch at canteen,383,Expense,UPI
+2024-05-19,Food,Street food,887,Expense,UPI
+2024-05-19,Entertainment,Gaming top-up,561,Expense,UPI
+2024-05-19,Education,Stationery,591,Expense,UPI
+2024-05-20,Bills,Mobile recharge,349,Expense,Net Banking
+2024-05-20,Groceries,Big Basket order,949,Expense,UPI
+2024-05-20,Food,Swiggy order,160,Expense,UPI
+2024-05-21,Groceries,Vegetables and fruits,763,Expense,UPI
+2024-05-21,Transport,Bus pass,67,Expense,UPI
+2024-05-23,Entertainment,Streaming subscription,338,Expense,UPI
+2024-05-24,Food,Swiggy order,290,Expense,Cash
+2024-05-29,Transport,Uber ride,197,Expense,UPI
+2024-05-31,Food,Street food,393,Expense,Cash
+2024-05-31,Transport,Auto rickshaw,418,Expense,Cash
+2024-06-01,Salary,Monthly salary,50000,Income,Net Banking
+2024-06-03,Education,Stationery,673,Expense,UPI
+2024-06-03,Education,Online course fee,8000,Expense,Card
+2024-06-04,Transport,Bus pass,87,Expense,UPI
+2024-06-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2024-06-05,Food,Zomato order,477,Expense,Cash
+2024-06-06,Transport,Ola ride,167,Expense,UPI
+2024-06-07,Food,Coffee with friends,353,Expense,Cash
+2024-06-08,Entertainment,Streaming subscription,239,Expense,Cash
+2024-06-08,Food,Zomato order,324,Expense,UPI
+2024-06-09,Food,Street food,686,Expense,UPI
+2024-06-09,Transport,Metro card recharge,180,Expense,UPI
+2024-06-10,Bills,Electricity bill,1768,Expense,Net Banking
+2024-06-11,Food,Pizza order,180,Expense,Card
+2024-06-12,Bills,Internet bill,799,Expense,Net Banking
+2024-06-12,Entertainment,Streaming subscription,163,Expense,UPI
+2024-06-13,Food,Swiggy order,272,Expense,UPI
+2024-06-13,Food,Swiggy order,229,Expense,UPI
+2024-06-13,Food,Lunch at canteen,269,Expense,Card
+2024-06-13,Food,Swiggy order,359,Expense,UPI
+2024-06-14,Travel,Hotel stay,3109,Expense,UPI
+2024-06-14,Travel,Local travel,306,Expense,Card
+2024-06-14,Travel,Not provided,709,Expense,UPI
+2024-06-14,Travel,Train or flight tickets,4523,Expense,Card
+2024-06-15,Travel,Hotel stay,3001,Expense,UPI
+2024-06-15,Travel,Local travel,439,Expense,UPI
+2024-06-15,Travel,Trip food,782,Expense,Card
+2024-06-15,Groceries,Vegetables and fruits,1126,Expense,UPI
+2024-06-16,Travel,Trip food,550,Expense,UPI
+2024-06-16,Travel,Local travel,345,Expense,UPI
+2024-06-18,Food,Zomato order,618,Expense,UPI
+2024-06-19,Health,Pharmacy,45,Expense,UPI
+2024-06-20,Food,Street food,241,Expense,Card
+2024-06-20,Bills,Not provided,349,Expense,Net Banking
+2024-06-20,Education,Stationery,483,Expense,UPI
+2024-06-20,Transport,Metro card recharge,337,Expense,Cash
+2024-06-22,Entertainment,Gaming top-up,471,Expense,Card
+2024-06-23,Food,Coffee with friends,408,Expense,Card
+2024-06-23,Transport,Petrol,289,Expense,UPI
+2024-06-25,Transport,Auto rickshaw,81,Expense,Card
+2024-06-25,Freelance,Freelance project payment,10621,Income,Net Banking
+2024-06-27,Entertainment,Concert tickets,327,Expense,UPI
+2024-06-27,Groceries,Big Basket order,1011,Expense,Card
+2024-06-28,Food,Swiggy order,218,Expense,UPI
+2024-06-29,Food,Dinner out,184,Expense,UPI
+2024-06-29,Food,Zomato order,295,Expense,UPI
+2024-06-30,Food,Lunch at canteen,570,Expense,UPI
+2024-06-30,Food,Swiggy order,312,Expense,Card
+2024-06-30,Shopping,Clothes,1031,Expense,Card
+2024-07-01,Transport,Metro card recharge,159,Expense,Card
+2024-07-01,Salary,Monthly salary,50000,Income,Net Banking
+2024-07-02,Transport,Uber ride,108,Expense,UPI
+2024-07-04,Food,Street food,448,Expense,Card
+2024-07-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2024-07-06,Transport,Uber ride,133,Expense,Card
+2024-07-07,Food,Street food,325,Expense,UPI
+2024-07-08,Education,Books,529,Expense,UPI
+2024-07-09,Food,Coffee with friends,181,Expense,UPI
+2024-07-09,Food,Street food,277,Expense,Card
+2024-07-10,Bills,Electricity bill,1089,Expense,Net Banking
+2024-07-12,Transport,Ola ride,204,Expense,Cash
+2024-07-12,Bills,Internet bill,799,Expense,UPI
+2024-07-14,Entertainment,Movie tickets,294,Expense,UPI
+2024-07-15,Transport,Uber ride,222,Expense,UPI
+2024-07-15,Food,Lunch at canteen,130,Expense,Cash
+2024-07-15,Food,Swiggy order,184,Expense,UPI
+2024-07-16,Transport,Auto rickshaw,157,Expense,UPI
+2024-07-17,Food,Lunch at canteen,628,Expense,UPI
+2024-07-20,Food,Street food,229,Expense,UPI
+2024-07-20,Entertainment,Streaming subscription,506,Expense,UPI
+2024-07-20,Bills,Mobile recharge,349,Expense,UPI
+2024-07-21,Entertainment,Gaming top-up,625,Expense,Card
+2024-07-23,Transport,Auto rickshaw,278,Expense,UPI
+2024-07-23,Food,Lunch at canteen,139,Expense,UPI
+2024-07-23,Food,Swiggy order,217,Expense,Cash
+2024-07-24,Transport,Petrol,181,Expense,Card
+2024-07-26,Groceries,Monthly grocery run,1132,Expense,Cash
+2024-07-27,Entertainment,Concert tickets,291,Expense,Cash
+2024-07-27,Entertainment,Gaming top-up,370,Expense,Cash
+2024-07-28,Shopping,Gift purchase,717,Expense,UPI
+2024-07-29,Shopping,Home decor,161,Expense,UPI
+2024-07-29,Groceries,Blinkit groceries,1116,Expense,UPI
+2024-07-29,Food,Swiggy order,175,Expense,Card
+2024-07-30,Transport,Metro card recharge,107,Expense,Card
+2024-07-31,Transport,Uber ride,112,Expense,UPI
+2024-07-31,Transport,Metro card recharge,128,Expense,UPI
+2024-08-01,Salary,Monthly salary,50000,Income,Net Banking
+2024-08-01,Transport,Ola ride,244,Expense,UPI
+2024-08-01,Transport,Metro card recharge,98,Expense,UPI
+2024-08-03,Education,Online course,1226,Expense,UPI
+2024-08-04,Shopping,Home decor,749,Expense,UPI
+2024-08-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2024-08-06,Transport,Petrol,189,Expense,UPI
+2024-08-08,Transport,Metro card recharge,177,Expense,UPI
+2024-08-08,Food,Dinner out,633,Expense,UPI
+2024-08-08,Transport,Auto rickshaw,100,Expense,UPI
+2024-08-09,Transport,Ola ride,214,Expense,Card
+2024-08-10,Bills,Electricity bill,1132,Expense,Net Banking
+2024-08-11,Entertainment,Gaming top-up,809,Expense,Card
+2024-08-11,Health,Lab tests,348,Expense,Card
+2024-08-12,Bills,Internet bill,799,Expense,Net Banking
+2024-08-13,Food,Street food,218,Expense,Card
+2024-08-13,Transport,Auto rickshaw,169,Expense,Card
+2024-08-13,Transport,Ola ride,133,Expense,UPI
+2024-08-13,Transport,Petrol,100,Expense,UPI
+2024-08-14,Food,Lunch at canteen,239,Expense,UPI
+2024-08-15,Transport,Bus pass,216,Expense,UPI
+2024-08-16,Entertainment,Gaming top-up,761,Expense,UPI
+2024-08-17,Transport,Ola ride,104,Expense,Cash
+2024-08-17,Food,Zomato order,467,Expense,UPI
+2024-08-18,Food,Lunch at canteen,503,Expense,UPI
+2024-08-20,Food,Not provided,236,Expense,UPI
+2024-08-20,Bills,Mobile recharge,349,Expense,Net Banking
+2024-08-20,Transport,Petrol,165,Expense,Card
+2024-08-22,Food,Dinner out,178,Expense,Card
+2024-08-23,Transport,Ola ride,196,Expense,UPI
+2024-08-23,Education,Online course,783,Expense,Cash
+2024-08-23,Transport,Auto rickshaw,69,Expense,Card
+2024-08-24,Groceries,Monthly grocery run,619,Expense,UPI
+2024-08-26,Food,Street food,302,Expense,Cash
+2024-08-26,Transport,Ola ride,75,Expense,Cash
+2024-08-27,Transport,Auto rickshaw,47,Expense,UPI
+2024-08-27,Transport,Uber ride,388,Expense,Card
+2024-08-28,Transport,Ola ride,253,Expense,UPI
+2024-08-28,Transport,Uber ride,392,Expense,UPI
+2024-08-28,Transport,Metro card recharge,203,Expense,UPI
+2024-08-29,Transport,Metro card recharge,73,Expense,UPI
+2024-08-30,Transport,Metro card recharge,210,Expense,Cash
+2024-09-01,Salary,Monthly salary,50000,Income,Net Banking
+2024-09-01,Food,Coffee with friends,210,Expense,UPI
+2024-09-02,Transport,Metro card recharge,167,Expense,Card
+2024-09-02,Food,Street food,329,Expense,UPI
+2024-09-03,Food,Not provided,520,Expense,UPI
+2024-09-05,Rent,Monthly house rent,14000,Expense,UPI
+2024-09-06,Health,Lab tests,833,Expense,UPI
+2024-09-06,Health,Gym membership,342,Expense,Cash
+2024-09-06,Transport,Bus pass,172,Expense,UPI
+2024-09-07,Transport,Ola ride,200,Expense,UPI
+2024-09-07,Transport,Metro card recharge,167,Expense,Card
+2024-09-07,Transport,Uber ride,154,Expense,UPI
+2024-09-08,Food,Lunch at canteen,142,Expense,Card
+2024-09-10,Bills,Electricity bill,1069,Expense,Net Banking
+2024-09-11,Food,Street food,352,Expense,Card
+2024-09-12,Bills,Internet bill,799,Expense,Net Banking
+2024-09-15,Food,Coffee with friends,410,Expense,UPI
+2024-09-15,Transport,Bus pass,198,Expense,Card
+2024-09-15,Transport,Petrol,250,Expense,UPI
+2024-09-15,Transport,Bus pass,272,Expense,UPI
+2024-09-16,Entertainment,Streaming subscription,648,Expense,UPI
+2024-09-18,Transport,Ola ride,61,Expense,Card
+2024-09-19,Transport,Uber ride,90,Expense,Cash
+2024-09-20,Transport,Metro card recharge,169,Expense,UPI
+2024-09-20,Bills,Mobile recharge,349,Expense,Net Banking
+2024-09-20,Freelance,Freelance project payment,7806,Income,Net Banking
+2024-09-24,Education,Online course,502,Expense,UPI
+2024-09-25,Groceries,Monthly grocery run,717,Expense,Card
+2024-09-25,Shopping,Electronics accessory,895,Expense,UPI
+2024-09-26,Groceries,Blinkit groceries,789,Expense,UPI
+2024-09-29,Transport,Uber ride,220,Expense,UPI
+2024-09-30,Groceries,Monthly grocery run,835,Expense,Cash
+2024-10-01,Salary,Monthly salary,55000,Income,Net Banking
+2024-10-01,Transport,Auto rickshaw,126,Expense,UPI
+2024-10-03,Transport,Bus pass,119,Expense,Card
+2024-10-03,Transport,Ola ride,165,Expense,Card
+2024-10-04,Transport,Auto rickshaw,130,Expense,Card
+2024-10-04,Groceries,Monthly grocery run,1589,Expense,UPI
+2024-10-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2024-10-06,Groceries,Milk and bread,1181,Expense,UPI
+2024-10-07,Entertainment,Concert tickets,494,Expense,Card
+2024-10-08,Food,Zomato order,308,Expense,UPI
+2024-10-08,Transport,Bus pass,94,Expense,Card
+2024-10-09,Groceries,Vegetables and fruits,1198,Expense,UPI
+2024-10-09,Transport,Ola ride,116,Expense,UPI
+2024-10-09,Entertainment,Gaming top-up,805,Expense,Cash
+2024-10-10,Bills,Electricity bill,1139,Expense,Net Banking
+2024-10-10,Food,Coffee with friends,228,Expense,UPI
+2024-10-12,Food,Street food,265,Expense,UPI
+2024-10-12,Bills,Internet bill,799,Expense,UPI
+2024-10-14,Health,Doctor consultation,1163,Expense,UPI
+2024-10-14,Groceries,Vegetables and fruits,872,Expense,Card
+2024-10-15,Transport,Petrol,102,Expense,Card
+2024-10-16,Transport,Bus pass,88,Expense,Card
+2024-10-17,Transport,Metro card recharge,240,Expense,UPI
+2024-10-17,Transport,Uber ride,110,Expense,UPI
+2024-10-19,Entertainment,Gaming top-up,243,Expense,UPI
+2024-10-19,Food,Dinner out,338,Expense,UPI
+2024-10-19,Food,Zomato order,387,Expense,UPI
+2024-10-20,Bills,Mobile recharge,349,Expense,UPI
+2024-10-21,Transport,Petrol,468,Expense,UPI
+2024-10-22,Freelance,Freelance project payment,10658,Income,Net Banking
+2024-10-22,Transport,Petrol,129,Expense,UPI
+2024-10-22,Transport,Auto rickshaw,96,Expense,UPI
+2024-10-23,Food,Zomato order,445,Expense,UPI
+2024-10-26,Food,Zomato order,487,Expense,UPI
+2024-10-26,Education,Stationery,495,Expense,UPI
+2024-10-27,Groceries,Milk and bread,1046,Expense,UPI
+2024-10-27,Food,Swiggy order,315,Expense,Cash
+2024-10-27,Transport,Ola ride,91,Expense,UPI
+2024-10-28,Transport,Auto rickshaw,133,Expense,UPI
+2024-10-29,Transport,Auto rickshaw,70,Expense,UPI
+2024-10-29,Shopping,Home decor,1344,Expense,Card
+2024-10-29,Health,Doctor consultation,148,Expense,UPI
+2024-11-01,Transport,Ola ride,330,Expense,Card
+2024-11-01,Salary,Monthly salary,55000,Income,Net Banking
+2024-11-02,Groceries,Vegetables and fruits,919,Expense,UPI
+2024-11-04,Food,Street food,164,Expense,UPI
+2024-11-04,Transport,Bus pass,92,Expense,UPI
+2024-11-04,Transport,Auto rickshaw,226,Expense,UPI
+2024-11-05,Rent,Monthly house rent,14000,Expense,UPI
+2024-11-05,Groceries,Monthly grocery run,884,Expense,Card
+2024-11-06,Food,Street food,199,Expense,UPI
+2024-11-07,Food,Coffee with friends,325,Expense,Card
+2024-11-07,Food,Coffee with friends,348,Expense,UPI
+2024-11-07,Groceries,Milk and bread,1067,Expense,UPI
+2024-11-08,Entertainment,Streaming subscription,616,Expense,UPI
+2024-11-09,Shopping,Laptop purchase,18500,Expense,UPI
+2024-11-10,Health,Gym membership,281,Expense,Card
+2024-11-10,Food,Lunch at canteen,369,Expense,Card
+2024-11-10,Bills,Electricity bill,1107,Expense,Net Banking
+2024-11-11,Transport,Auto rickshaw,197,Expense,UPI
+2024-11-12,Bills,Internet bill,799,Expense,Net Banking
+2024-11-14,Food,Coffee with friends,281,Expense,Card
+2024-11-15,Food,Coffee with friends,139,Expense,Card
+2024-11-16,Food,Street food,504,Expense,UPI
+2024-11-16,Food,Coffee with friends,382,Expense,UPI
+2024-11-18,Transport,Metro card recharge,156,Expense,Card
+2024-11-18,Health,Gym membership,614,Expense,Card
+2024-11-19,Food,Coffee with friends,149,Expense,UPI
+2024-11-20,Bills,Mobile recharge,349,Expense,Net Banking
+2024-11-20,Food,Swiggy order,188,Expense,UPI
+2024-11-21,Transport,Petrol,107,Expense,UPI
+2024-11-22,Education,Not provided,987,Expense,Card
+2024-11-23,Transport,Uber ride,201,Expense,Card
+2024-11-23,Freelance,Freelance project payment,4058,Income,Net Banking
+2024-11-24,Transport,Metro card recharge,58,Expense,Cash
+2024-11-24,Health,Not provided,226,Expense,Card
+2024-11-25,Transport,Petrol,159,Expense,UPI
+2024-11-29,Food,Coffee with friends,560,Expense,Card
+2024-11-29,Transport,Auto rickshaw,230,Expense,UPI
+2024-11-30,Food,Zomato order,306,Expense,UPI
+2024-11-30,Food,Street food,311,Expense,UPI
+2024-12-01,Entertainment,Concert tickets,349,Expense,UPI
+2024-12-01,Salary,Monthly salary,55000,Income,Net Banking
+2024-12-02,Food,Dinner out,219,Expense,Cash
+2024-12-02,Food,Street food,317,Expense,UPI
+2024-12-05,Rent,Monthly house rent,14000,Expense,UPI
+2024-12-05,Transport,Uber ride,60,Expense,UPI
+2024-12-05,Transport,Ola ride,220,Expense,Card
+2024-12-05,Transport,Auto rickshaw,114,Expense,Card
+2024-12-06,Transport,Auto rickshaw,90,Expense,UPI
+2024-12-07,Entertainment,Movie tickets,398,Expense,Cash
+2024-12-09,Transport,Bus pass,356,Expense,UPI
+2024-12-10,Bills,Electricity bill,938,Expense,UPI
+2024-12-11,Entertainment,Gaming top-up,422,Expense,UPI
+2024-12-11,Shopping,Home decor,332,Expense,UPI
+2024-12-12,Entertainment,Streaming subscription,764,Expense,UPI
+2024-12-13,Food,Street food,211,Expense,UPI
+2024-12-14,Food,Zomato order,224,Expense,Card
+2024-12-14,Entertainment,Concert tickets,542,Expense,UPI
+2024-12-14,Food,Zomato order,337,Expense,Card
+2024-12-15,Shopping,Gift purchase,652,Expense,UPI
+2024-12-16,Groceries,Big Basket order,1095,Expense,Card
+2024-12-17,Transport,Uber ride,245,Expense,UPI
+2024-12-17,Transport,Ola ride,225,Expense,UPI
+2024-12-17,Transport,Bus pass,74,Expense,UPI
+2024-12-18,Food,Zomato order,264,Expense,Card
+2024-12-20,Travel,Trip food,637,Expense,Cash
+2024-12-20,Travel,Local travel,589,Expense,Card
+2024-12-20,Travel,Train or flight tickets,4452,Expense,Card
+2024-12-20,Travel,Hotel stay,3411,Expense,UPI
+2024-12-20,Bills,Mobile recharge,349,Expense,Net Banking
+2024-12-21,Travel,Local travel,380,Expense,Card
+2024-12-21,Travel,Hotel stay,3043,Expense,UPI
+2024-12-21,Travel,Trip food,578,Expense,UPI
+2024-12-21,Entertainment,Concert tickets,791,Expense,Card
+2024-12-21,Groceries,Vegetables and fruits,440,Expense,UPI
+2024-12-22,Travel,Hotel stay,3008,Expense,Cash
+2024-12-22,Travel,Trip food,523,Expense,Cash
+2024-12-22,Food,Dinner out,428,Expense,UPI
+2024-12-22,Travel,Local travel,515,Expense,UPI
+2024-12-23,Travel,Trip food,711,Expense,UPI
+2024-12-23,Travel,Local travel,329,Expense,UPI
+2024-12-24,Entertainment,Streaming subscription,1160,Expense,UPI
+2024-12-25,Food,Lunch at canteen,363,Expense,Cash
+2024-12-25,Transport,Auto rickshaw,474,Expense,Cash
+2024-12-28,Transport,Uber ride,401,Expense,Cash
+2024-12-29,Entertainment,Streaming subscription,713,Expense,Cash
+2024-12-29,Shopping,Gift purchase,431,Expense,UPI
+2024-12-29,Entertainment,Streaming subscription,316,Expense,UPI
+2024-12-30,Entertainment,Concert tickets,276,Expense,Card
+2024-12-31,Groceries,Milk and bread,972,Expense,Card
+2024-12-31,Transport,Uber ride,141,Expense,Card
+2025-01-01,Salary,Monthly salary,55000,Income,Net Banking
+2025-01-02,Transport,Petrol,516,Expense,Card
+2025-01-02,Food,Zomato order,265,Expense,UPI
+2025-01-02,Education,Books,1076,Expense,Card
+2025-01-03,Transport,Uber ride,149,Expense,UPI
+2025-01-04,Groceries,Monthly grocery run,706,Expense,Cash
+2025-01-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2025-01-05,Entertainment,Concert tickets,1149,Expense,Card
+2025-01-06,Transport,Bus pass,79,Expense,UPI
+2025-01-09,Food,Dinner out,418,Expense,UPI
+2025-01-10,Bills,Electricity bill,990,Expense,Net Banking
+2025-01-10,Transport,Metro card recharge,134,Expense,UPI
+2025-01-11,Food,Street food,357,Expense,UPI
+2025-01-12,Entertainment,Streaming subscription,308,Expense,UPI
+2025-01-12,Transport,Auto rickshaw,210,Expense,UPI
+2025-01-12,Bills,Internet bill,799,Expense,Net Banking
+2025-01-13,Food,Lunch at canteen,158,Expense,UPI
+2025-01-15,Transport,Ola ride,255,Expense,Card
+2025-01-15,Transport,Petrol,250,Expense,Card
+2025-01-18,Entertainment,Gaming top-up,407,Expense,Cash
+2025-01-18,Shopping,Phone upgrade,22000,Expense,Card
+2025-01-18,Transport,Bus pass,65,Expense,UPI
+2025-01-19,Entertainment,Gaming top-up,236,Expense,UPI
+2025-01-19,Entertainment,Gaming top-up,727,Expense,UPI
+2025-01-20,Bills,Mobile recharge,349,Expense,Net Banking
+2025-01-20,Transport,Bus pass,232,Expense,Card
+2025-01-22,Transport,Metro card recharge,38,Expense,UPI
+2025-01-24,Transport,Ola ride,288,Expense,UPI
+2025-01-25,Entertainment,Gaming top-up,573,Expense,UPI
+2025-01-26,Food,Swiggy order,466,Expense,Cash
+2025-01-26,Groceries,Vegetables and fruits,1235,Expense,Card
+2025-01-26,Shopping,Clothes,602,Expense,Cash
+2025-01-26,Entertainment,Streaming subscription,385,Expense,Card
+2025-01-27,Health,Hospital bill,16800,Expense,Card
+2025-01-30,Food,Zomato order,178,Expense,UPI
+2025-01-31,Transport,Petrol,282,Expense,UPI
+2025-02-01,Salary,Monthly salary,55000,Income,Net Banking
+2025-02-02,Entertainment,Concert tickets,365,Expense,UPI
+2025-02-02,Entertainment,Gaming top-up,494,Expense,Card
+2025-02-02,Food,Swiggy order,173,Expense,UPI
+2025-02-05,Transport,Metro card recharge,80,Expense,Card
+2025-02-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2025-02-08,Travel,Trip food,716,Expense,Card
+2025-02-08,Travel,Local travel,448,Expense,UPI
+2025-02-08,Travel,Hotel stay,3320,Expense,Cash
+2025-02-08,Travel,Train or flight tickets,4006,Expense,UPI
+2025-02-09,Food,Coffee with friends,561,Expense,Card
+2025-02-09,Travel,Not provided,675,Expense,UPI
+2025-02-09,Travel,Local travel,342,Expense,Card
+2025-02-09,Travel,Hotel stay,2765,Expense,Card
+2025-02-09,Food,Street food,192,Expense,UPI
+2025-02-10,Travel,Trip food,625,Expense,UPI
+2025-02-10,Bills,Electricity bill,935,Expense,Net Banking
+2025-02-10,Travel,Local travel,528,Expense,UPI
+2025-02-12,Bills,Internet bill,799,Expense,Net Banking
+2025-02-12,Transport,Metro card recharge,158,Expense,UPI
+2025-02-12,Health,Pharmacy,128,Expense,Cash
+2025-02-15,Food,Zomato order,429,Expense,Card
+2025-02-16,Entertainment,Gaming top-up,372,Expense,Card
+2025-02-18,Groceries,Vegetables and fruits,962,Expense,UPI
+2025-02-20,Bills,Mobile recharge,349,Expense,Net Banking
+2025-02-21,Transport,Ola ride,139,Expense,Card
+2025-02-21,Food,Street food,280,Expense,UPI
+2025-02-22,Entertainment,Concert tickets,668,Expense,UPI
+2025-02-28,Transport,Auto rickshaw,113,Expense,UPI
+2025-03-01,Salary,Monthly salary,55000,Income,Net Banking
+2025-03-04,Transport,Auto rickshaw,216,Expense,UPI
+2025-03-04,Food,Coffee with friends,718,Expense,Card
+2025-03-05,Transport,Ola ride,154,Expense,Card
+2025-03-05,Transport,Auto rickshaw,171,Expense,UPI
+2025-03-05,Transport,Bus pass,306,Expense,Cash
+2025-03-05,Food,Street food,187,Expense,UPI
+2025-03-05,Rent,Monthly house rent,14000,Expense,Net Banking
+2025-03-06,Transport,Metro card recharge,121,Expense,UPI
+2025-03-07,Health,Doctor consultation,1307,Expense,UPI
+2025-03-09,Food,Zomato order,915,Expense,Card
+2025-03-09,Entertainment,Gaming top-up,798,Expense,UPI
+2025-03-10,Bills,Electricity bill,1089,Expense,UPI
+2025-03-10,Transport,Bus pass,195,Expense,UPI
+2025-03-12,Transport,Ola ride,212,Expense,UPI
+2025-03-12,Bills,Internet bill,799,Expense,Net Banking
+2025-03-14,Transport,Auto rickshaw,118,Expense,UPI
+2025-03-19,Transport,Petrol,94,Expense,UPI
+2025-03-20,Entertainment,Gaming top-up,429,Expense,Cash
+2025-03-20,Bills,Mobile recharge,349,Expense,Net Banking
+2025-03-21,Food,Zomato order,177,Expense,UPI
+2025-03-21,Groceries,Blinkit groceries,1286,Expense,UPI
+2025-03-23,Food,Swiggy order,507,Expense,Cash
+2025-03-23,Transport,Auto rickshaw,242,Expense,Cash
+2025-03-26,Freelance,Freelance project payment,6349,Income,Net Banking
+2025-03-28,Transport,Bus pass,64,Expense,Cash
+2025-03-28,Transport,Auto rickshaw,185,Expense,UPI
+2025-03-28,Food,Street food,202,Expense,UPI
+2025-03-29,Shopping,Electronics accessory,671,Expense,UPI
+2025-03-31,Shopping,Clothes,1091,Expense,UPI
+2025-03-31,Shopping,Clothes,1339,Expense,UPI

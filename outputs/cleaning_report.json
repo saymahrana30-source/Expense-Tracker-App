@@ -1,0 +1,23 @@
+{
+  "rows_loaded": 478,
+  "exact_duplicates_removed": 6,
+  "missing_critical_fields": {
+    "Date": 3,
+    "Amount": 4,
+    "Category": 2,
+    "Type": 0
+  },
+  "rows_dropped_missing_critical": 9,
+  "unreadable_dates_dropped": 0,
+  "invalid_amounts_dropped": 0,
+  "categories_standardised": 35,
+  "types_standardised": 13,
+  "invalid_types_dropped": 0,
+  "missing_descriptions_filled": 9,
+  "duplicates_after_standardising_removed": 0,
+  "rows_after_cleaning": 463,
+  "date_range": [
+    "2024-04-01",
+    "2025-03-31"
+  ]
+}

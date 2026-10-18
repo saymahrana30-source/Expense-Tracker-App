@@ -1,0 +1,183 @@
+
+======================================================================
+  STEP 1 | Create or load the synthetic expense data
+======================================================================
+Found existing data: data/raw/expenses.csv
+Loaded 478 rows x 6 columns
+
+Data preview (first 5 rows):
+      Date      Category        Description Amount    Type Payment_Method
+2024-04-01        Salary     Monthly salary  50000  Income    Net Banking
+2024-04-02 Entertainment      Movie tickets    491 Expense            UPI
+2024-04-04          Food       Swiggy order    211 Expense            UPI
+2024-04-05          Rent Monthly house rent  14000 Expense            UPI
+2024-04-05     Transport             Petrol    239 Expense            UPI
+
+Missing values per column:
+Date               3
+Category           2
+Description       10
+Amount             4
+Type               0
+Payment_Method     0
+
+Category values exactly as they appear in the file:
+['Salary', 'Entertainment', 'Food', 'Rent', 'Transport', 'Groceries', 'Bills', 'Shopping', 'Health', 'food', '  ENTERTAINMENT ', 'bills', 'Education', '  TRANSPORT ', '  RENT ', 'Travel', '  TRAVEL ', 'freelance', '  FOOD ', 'transport', 'Freelance', '  SHOPPING ', '  GROCERIES ']
+
+Transaction types exactly as they appear in the file:
+['Income', 'Expense', 'EXPENSE', 'expense', 'income']
+
+======================================================================
+  STEP 2 | Clean the data
+======================================================================
+Rows loaded                            : 478
+Exact duplicate rows removed           : 6
+Missing critical fields (before drop)  : {'Date': 3, 'Amount': 4, 'Category': 2, 'Type': 0}
+Rows dropped for missing fields        : 9
+Dates in an unreadable format dropped  : 0
+Invalid amounts dropped                : 0
+Invalid types dropped                  : 0
+Categories standardised                : 35
+Types standardised                     : 13
+Missing descriptions filled            : 9
+Duplicates found after standardising   : 0
+Rows after cleaning                    : 463
+Date range                             : 2024-04-01 to 2025-03-31
+
+Cleaned data saved to data/processed/cleaned_expenses.csv
+
+======================================================================
+  STEP 3 | Feature engineering
+======================================================================
+Columns now: 15
+      Date      Category  Amount    Type Year_Month  Weekday Spend_Group
+2024-04-01        Salary   50000  Income    2024-04   Monday      Income
+2024-04-02 Entertainment     491 Expense    2024-04  Tuesday        Want
+2024-04-04          Food     211 Expense    2024-04 Thursday        Want
+2024-04-05          Rent   14000 Expense    2024-04   Friday        Need
+2024-04-05     Transport     239 Expense    2024-04   Friday        Need
+
+======================================================================
+  STEP 4 | Analysis
+======================================================================
+Period: 01 Apr 2024 to 31 Mar 2025
+Income ₹669,492 | Expense ₹445,879 | Savings ₹223,613 (33.4%)
+
+Category-wise spending:
+                Total  Transactions  Average  Largest  Share_%
+Category                                                      
+Rent           168000            12  14000.0    14000     37.7
+Shopping        51569            16   3223.0    22000     11.6
+Travel          45365            30   1512.0     4523     10.2
+Food            34654           104    333.0      915      7.8
+Groceries       31446            32    983.0     1641      7.1
+Bills           27552            35    787.0     1768      6.2
+Transport       25768           145    178.0      516      5.8
+Entertainment   23510            48    490.0     1160      5.3
+Health          22670            13   1744.0    16800      5.1
+Education       15345            11   1395.0     8000      3.4
+
+Month-wise income and expense:
+            Income  Expense  Savings  Savings_Rate_%  Expense_Change_%
+Year_Month                                                            
+2024-04      50000    31198    18802            37.6               NaN
+2024-05      50000    27199    22801            45.6             -12.8
+2024-06      60621    51385     9236            15.2              88.9
+2024-07      50000    26700    23300            46.6             -48.0
+2024-08      50000    28166    21834            43.7               5.5
+2024-09      57806    25861    31945            55.3              -8.2
+2024-10      65658    31915    33743            51.4              23.4
+2024-11      59058    46330    12728            21.6              45.2
+2024-12      55000    47879     7121            12.9               3.3
+2025-01      55000    66682   -11682           -21.2              39.3
+2025-02      55000    34622    20378            37.1             -48.1
+2025-03      61349    27942    33407            54.5             -19.3
+
+Spending by weekday:
+           Transactions  Total_Spent
+Weekday                             
+Monday               59        65007
+Tuesday              61        35397
+Wednesday            59        62216
+Thursday             56        47089
+Friday               66        70017
+Saturday             67        94670
+Sunday               78        71483
+
+Category-months over budget: 20 of 102 checked
+Year_Month      Category  Spent  Budget  Pct_of_Budget
+   2024-04     Groceries   5989    5000          119.8
+   2024-04     Transport   3074    2500          123.0
+   2024-06     Education   9156    1500          610.4
+   2024-06          Food   5995    3000          199.8
+   2024-06        Travel  13764    2000          688.2
+   2024-08     Education   2009    1500          133.9
+   2024-08     Transport   3815    2500          152.6
+   2024-09        Health   1175    1000          117.5
+   2024-10     Groceries   5886    5000          117.7
+   2024-10        Health   1311    1000          131.1
+   2024-11          Food   4225    3000          140.8
+   2024-11        Health   1121    1000          112.1
+   2024-11      Shopping  18500    3000          616.7
+   2024-12 Entertainment   5731    2000          286.6
+   2024-12        Travel  18176    2000          908.8
+   2025-01 Entertainment   3785    2000          189.2
+   2025-01        Health  16800    1000         1680.0
+   2025-01      Shopping  22602    3000          753.4
+   2025-02        Travel  13425    2000          671.2
+   2025-03        Health   1307    1000          130.7
+
+Unusually large transactions flagged: 4
+      Date  Category       Description  Amount  Fence
+2025-01-18  Shopping     Phone upgrade   22000 2694.0
+2024-11-09  Shopping   Laptop purchase   18500 2694.0
+2025-01-27    Health     Hospital bill   16800 2654.0
+2024-06-03 Education Online course fee    8000 2580.0
+
+50/30/20 check: needs 43.4% | wants 23.2% | savings 33.4% of income
+
+======================================================================
+  STEP 5 | Charts
+======================================================================
+Saved images/01_category_totals.png
+Saved images/02_expense_distribution_pie.png
+Saved images/03_monthly_income_vs_expense.png
+Saved images/04_monthly_spending_by_category.png
+Saved images/05_weekday_activity.png
+Saved images/06_budget_usage_heatmap.png
+Saved images/07_unusual_transactions.png
+Saved images/08_dashboard.png
+
+======================================================================
+  STEP 6 | Insights
+======================================================================
+1. Between 01 Apr 2024 and 31 Mar 2025 you earned ₹669,492 and spent ₹445,879. That leaves ₹223,613 saved, a savings rate of 33.4%.
+
+2. Rent is the biggest expense at ₹168,000, which is 37.7% of all spending. The top three categories make up 59.5% together.
+
+3. Spending was highest in January 2025 (₹66,682) and lowest in September 2024 (₹25,861).
+
+4. 20 category-months went more than 10% over budget. Categories affected: Health (5 months), Travel (3 months), Education (2 months), Entertainment (2 months), Groceries (2 months), Food (2 months), Shopping (2 months), Transport (2 months). The worst case was Health in January 2025, at 1680% of its budget.
+
+5. On an average weekend day you spend ₹1,598, compared with ₹1,072 on an average weekday, which is 1.5 times as much.
+
+6. 4 transactions were far above normal for their category, for example: 18 Jan 2025 Shopping (Phone upgrade) ₹22,000; 09 Nov 2024 Shopping (Laptop purchase) ₹18,500; 27 Jan 2025 Health (Hospital bill) ₹16,800. Review these first when you plan next year's budget.
+
+7. Against the 50/30/20 budgeting guideline, needs 43.4% of income (guideline: 50% or less); wants 23.2% of income (guideline: 30% or less); savings 33.4% of income (guideline: 20% or more). All three targets are met.
+
+8. The average monthly expense in January 2025 to March 2025 was 17.7% higher than in April 2024 to June 2024.
+
+
+======================================================================
+  STEP 7 | Save reports
+======================================================================
+Saved to outputs/: category_summary.csv, monthly_summary.csv, weekday_summary.csv,
+                   budget_check.csv, unusual_transactions.csv, insights.txt,
+                   cleaning_report.json, metrics.json
+
+======================================================================
+  DONE
+======================================================================
+Cleaned data : data/processed/cleaned_expenses.csv
+Charts       : images/
+Reports      : outputs/
